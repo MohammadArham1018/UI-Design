@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        #outer{
+            min-height: 1000px;
+            width: 1200px;
+            border: 1px solid black;
+            margin: 0px auto;
+            
+        }
+        #top{
+            height: 580px;
+            width: 1200px;
+            background: url("pic2.png");
+            background-size: 100% 100%;
+
+        }
+        #header{
+            height: 60px;
+            width: 1200px;
+            
+            background: rgba(0,0,0,.6);
+        }
+        #logo{
+            /* background: yellow; */
+            height: 60px;
+            width: 400px;
+            float: left;
+            font-size: 40px;
+            text-align: center;
+            line-height: 60px;
+            color: white;
+            font-weight: bold;
+        }
+        #menu{
+            /* //background: black; */
+            height: 60px;
+            width: 800px;
+            float: left;
+        }
+        .mytxtcolor
+        {
+            color: black;
+        }
+        .mybgcolor{
+            background: black;
+        }
+         nav ul{
+            list-style-type: none;
+        }
+       nav ul li{
+        height: 40px;
+        width: 100px;
+        /* //background: white;
+        //border: 1px solid yellow; */
+        text-align: center;
+        line-height: 40px;
+        font-weight: bold;
+        float: left;
+        transform: translateY(-7px);
+        margin-left: 1px ;
+        border-radius: 3px;
+        color: white;
+        background-attachment:fixed;
+
+        }
+         nav ul a{
+            text-decoration:none;
+         }
+         nav ul li:hover{
+            background: black;
+            transition: all ease 1s;
+            border-radius: 50px;
+         }
+         .btn{
+            background: black;
+        width: 100px;
+            border-radius: 50px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+         .btn:hover
+         {
+            transition: all ease .2s;
+            color: white;
+            /* transform: scale(.9); */
+            box-shadow: 0px 0px 0px 2px white;
+         }
+         #services
+         {
+            min-height:650px;
+            width: 900px;
+           padding:  25px 150px;
+           /* //background: red; */
+         }
+         .row{
+            height: 250px;
+            width: 900px;
+           /* // background: yellow; */
+
+         }
+         .col{
+            height: 206px;
+            width: 256px;
+           
+            margin:  10px;
+            float: left;
+            border: 2px solid silver;
+            border-radius:10px;
+            padding:10px;
+            text-align: justify;
+            font-size: 20px;
+            background: #f1f3f4;
+         }
+         .col:hover{
+            background: url("pic4.png");
+            background-size: cover;
+            transition: all ease .5s;
+            color: white;
+            transform: scale(1.005);
+            box-shadow: 0px 0px 15px 5px black;
+         }
+         #aboutus{
+            min-height: 450px;
+            width: 900px;
+            background:#f1f3f4 ;
+            padding: 25px 150px;
+            font-size: 20px;
+           
+         }
+         #gallery{
+            min-height: 650px;
+            width: 900px;
+            background:rgba(61, 52, 5, 0.221) ;
+            padding: 25px 150px;
+         }
+         #footer{
+            min-height: 50px;
+            width: 1200px;
+            background:black ;
+         }
+          #aboutus p{
+        column-count: 3;
+        text-align: justify;
+        column-gap: 80px; 
+        column-rule: 10px  groove gray;
+          }
+          .imgg{
+            height: 100%;
+            width: 100%;
+
+          }
+          .imgg:hover{
+            filter: grayscale(100%);
+            transform: rotate(10deg);
+            transition: all ease 1s;
+            border-radius: 5px;
+          }
+          .fpart{
+            height: 50px;
+            width: 600px;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+            font-size: 28px;
+            color: white;
+          }
+          
+          .wrt{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+         
+             
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="top">
+           <div id="header">
+            <div id="logo" class="wrt">STUDY <b class="mytxtcolor"> HUB </b></div>
+            <div id="menu">
+                <nav>
+                    <ul>
+                     <a href="#top">   <li class="btn">Home</li></a>
+                     <a href="#aboutus">   <li class="btn">About Us </li></a>
+                     <a href="#">   <li class="btn">Register</li></a>
+                     <a href="#">   <li class="btn">Contact Us</li></a>
+                     <a href="#gallery">   <li class="btn">gallery</li></a>
+                     <a href="#">   <li class="btn">Login</li></a>
+                     <a href="#services">   <li class="btn">Services</li></a>
+                    </ul>
+                </nav>
+            </div>
+            <div style="font-size: 50px; text-align: center; color: white; padding-top: 190px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">WELCOME TO <b class="mytxtcolor"> STUDY HUB </b></div>
+            <div style="color: white; font-size: 22px; padding: 10px 320px;text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quae reiciendis laboriosam architecto aspernatur aliquid aut. Quod quidem cupiditate, consequuntur impedit pariatur.</div> <br><br>
+            <center>
+            <a href="#" style="color: white; text-decoration:none ;
+            padding: 10px 25px;" class="btn">Sign Up</a>
+                </center>
+           </div>
+        </div>
+        <div id="services">
+            <div style="text-align:center ; font-size: 30px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; "> <b > SERVICES </b>
+            <br><br></div>
+            <div class="row">
+                <div class="col"> 
+                    
+                    <center><img src="house.png"  height="40px" alt=""><br>
+                    <b style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">SEO</b></center>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit...</p>
+                
+                </div>
+                <div class="col">
+
+                    <center><img src="house.png"  height="40px" alt=""><br>
+                        <b style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Web Development</b></center>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit...</p>
+                </div>
+                <div class="col">
+                    <center><img src="house.png"  height="40px" alt=""><br>
+                        <b style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">UI</b></center>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit...</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <center><img src="house.png"  height="40px" alt=""><br>
+                        <b style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Android Development</b></center>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit...</p>
+                </div>
+                 <div class="col">
+                    <center><img src="house.png"  height="40px" alt=""><br>
+                        <b style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Frontend Development</b></center>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit...</p>
+                 </div> 
+                 <div class="col">
+                    <center><img src="house.png"  height="40px" alt=""><br>
+                        <b style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Backend Development</b></center>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit. Est, blanditiisonsectetur adipisicing elit...</p>
+                 </div>
+            </div>
+        </div>
+        <div id="aboutus">
+             <div style="text-align:center ; font-size: 30px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> <b> About Us </b></div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab nemo aspernatur excepturi neque voluptatum delectus odio, praesentium sunt dolores corrupti modi dignissimos dicta quos fugiat animi molestiae sapiente! Voluptatibus, fugiat praesentium inventore esse distinctio debitis nobis ipsum expedita! Quaerat labore veritatis, recusandae nihil unde architecto reprehenderit tempore officia quidem quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusantium recusandae provident, veritatis, consequuntur, ea itaque iusto eligendi excepturi quam architecto. Labore, atque fugit nostrum quae architecto quibusdam beatae tempora debitis nobis ipsum expedita! Quaerat labore veritatis, recusandae nihil unde architecto reprehenderit tempore officia quidem quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusantium recusandae provident, veritatis, consequuntur, ea itaque iusto eligendi excepturi quam architecto. Labore, atque fugit nostrum quae architecto quibusdam beatae tempora.</p></div>
+        <div id="gallery">
+            <div style="text-align:center ; font-size: 30px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> <b> Gallery </b></div>
+            <div class="row">
+                <div class="col">
+                    <img src="pic1.png" alt="" class="imgg">
+                </div>
+                <div class="col">
+                    <img src="pic3.png" alt="" class="imgg">
+                </div>
+                <div class="col">
+                    <img src="pic3.png" alt=""class="imgg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="pic1.png" alt="" class="imgg">
+                </div>
+                <div class="col">
+                    <img src="pic1.png" alt="" class="imgg">
+                </div>
+                <div class="col">
+                    <img src="pic1.png" alt="" class="imgg">
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="fpart">
+                &copy; Techpile Technology Pvt. Ltd.
+            </div>
+            <div class="fpart">
+                Developed By : Mohammad Arham
+            </div>
+        </div>
+    </div>
+</body>
+</html>
